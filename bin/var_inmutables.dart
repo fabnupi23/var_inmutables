@@ -9,7 +9,7 @@ void main(List<String> arguments) {
   var price = 1000.0;
   final iva = 0.19;
   final taxes = price * iva;
-  var total = price + taxes;
+  final total = price + taxes;
 
   print(
       'Hello world: el precio es $price con un IVA del $iva% con impuestos totales a $taxes con un total de $total!');
