@@ -7,8 +7,8 @@ import 'package:var_inmutables/var_inmutables.dart' as var_inmutables;
 
 void main(List<String> arguments) {
   var price = 1000.0;
-  var iva = 0.19;
-  var taxes = price * iva;
+  final iva = 0.19;
+  final taxes = price * iva;
   var total = price + taxes;
 
   print(
